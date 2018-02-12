@@ -57,5 +57,5 @@ population.add_child(
 wrld_map.add_child(population)
 wrld_map.add_child(film_map)
 wrld_map.add_child(folium.LayerControl())
-wrld_map.save('Yavorskyi_webmap.html')
+wrld_map.save('Yavorskyi_wmap.html')
 

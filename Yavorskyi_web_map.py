@@ -31,7 +31,7 @@ def get_pos(loc):
 
 wrld_map = folium.Map(location=[0, 0], zoom_start=1)
 film_map = folium.FeatureGroup(name='FilmsMap')
-data = r_file('locations.list')
+data = r_file('locations.list.txt')
 film_places = film_dict(data, int(input("Please, enter the year:")))
 lmt = int(input("Enter amount of fillms, you want to locate on the map:"))
 amount = 0
